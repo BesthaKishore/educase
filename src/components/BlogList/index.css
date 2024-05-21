@@ -1,0 +1,93 @@
+.anchor{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.ListItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    list-style-type: none;
+    margin: 25px;
+    width: 100%;
+    overflow: auto;
+}
+
+.ListImage{
+    width: 50%;
+    height: 100%;
+    margin-right: 15px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 5px #bfbfbf;
+}
+
+.ListItemContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+}
+
+
+.seeallbtns{
+border-width: 0px;
+background-color: transparent;
+font-size: 18px;
+color: #646464;
+cursor: pointer;
+outline: none;
+}
+
+.ListHeading{
+    font-size: 16px;
+    color: #999999;
+    font-weight: 500;
+}
+
+.ListPara{
+    font-size: 16px;
+    color: #222;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.ListParas{
+    font-size: 20px;
+    color: #222;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.ItemsContainerList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.author{
+    font-size: 26px;
+    font-weight: 500;
+    color: #222;
+}
+
+.ShowMore{
+    background-color: rgb(98, 16, 250);
+    border-radius: 6px;
+    border-width: 0px;
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.kishore{
+    color: #222;
+    font-weight: 600;
+    margin-left: 6px;
+}

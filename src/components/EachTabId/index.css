@@ -1,0 +1,28 @@
+.listItems{
+    list-style-type: none;
+    margin: 15px;
+}
+
+.eachButton{
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    color: #222;
+    font-weight: 400;
+
+}
+
+.eachButtons{
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    color: #29A2DD;
+    font-weight: 600; 
+    border-bottom: 2px solid #29A2DD;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}

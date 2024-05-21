@@ -1,0 +1,180 @@
+.HomeBgContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.HomeContainer{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    
+}
+
+.HomeCardContainer{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.HomeLogoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.HomeLogoHeading{
+ font-size: 36px;
+ color: #2488D7;
+ margin-right: 15px;
+}
+
+.BellContianer{
+    box-shadow: 2px 2px 16px #bfbfbf;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.searchInputItemsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #222;
+    padding: 8px 15px 8px 15px;
+    border-radius: 6px;
+    
+}
+
+.serachthing{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.serach{
+    font-size: 18px;
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    width: 90%;
+    margin-left: 8px;
+}
+
+.latestContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.LeastItemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    margin: 15px 0px 15px 0px;
+}
+
+.LatestUnOrder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin: 10px 0px 15px 0px;
+}
+
+.leastHeading{
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+}
+
+.seeallbtn{
+    border-width: 0px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #bfbfbf;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+}
+
+
+.EachItems{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+}
+
+.TrendingImage{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.RussinaContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RussianPara{
+    font-size: 18px;
+    font-weight: 600;
+    color: #929292;
+}
+
+.RussinaHeading{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.RussinaCardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 0px;
+}
+
+.BBCNewsName{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.newsName{
+    color: #929292;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timeAndDate{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-left: 45px;
+}
+
+.Time{
+    margin-left: 6px;
+    font-size: 18px;
+    color: #bfbfbf;
+}
+
+.Times{
+    margin-left: 6px;
+    font-size: 28px;
+    color: #222;
+}

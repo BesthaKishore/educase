@@ -1,0 +1,238 @@
+.BgContainer{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.BgCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+    height: 100%;
+    box-shadow: 2px 2px 16px #D0D0D0;
+    padding: 20px 20px 40px 20px;
+    border-radius: 10px;
+    overflow: auto;
+    
+}
+
+.TopBodyContainer{
+    padding: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 280px;
+    margin-top: 15px;
+}
+
+.TopBodyHeading{
+    font-size: 46px;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.TopBodyHeadings{
+    font-size: 46px;
+    margin-bottom: 15px;
+    color: rgb(63, 16, 236);
+    font-weight: 600;
+}
+
+.TopBodySpan{
+    color: #195DAA;
+    font-weight: 800;
+}
+
+.TopBodyPara{
+ font-size: 26px;
+ color: #6C8089;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.inputLabel{
+    font-size: 16px;
+    color: #6B6B6B;
+}
+
+.userSapn{
+    color: red;
+    font-size: 18px;
+
+}
+
+.userInput{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    border: #222 solid 1px;
+    margin: 10px 0px 10px 0px;
+}
+
+.userInputErro{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    border: hsl(0, 90%, 51%) solid 2px;
+    margin: 10px 0px 10px 0px; 
+    background-color: #E79999;
+}
+
+.PasswordInputErro{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    border: hsl(0, 90%, 51%) solid 2px;
+    margin: 10px 0px 10px 0px; 
+    background-color: #E79999; 
+}
+
+.forgetPasswordCOnainte{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.labeAndInput{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkbox{
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.checkboxLabel{
+    font-size: 16px;
+    color: #6B6B6B;
+}
+
+.forgetPara{
+    font-size: 20px;
+    color: hwb(246 33% 9%);
+}
+
+.loginBtn{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 4px;
+    border-width: 0px;
+    color: #fff;
+    background-color: blue;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    margin: 6px 0px 10px 0px;
+}
+
+.Home{
+    width: 135px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 4px;
+    border-width: 0px;
+    color: #fff;
+    background-color: blue;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    margin: 6px 0px 10px 0px;
+}
+
+.FormPara{
+    font-size: 18px;
+    text-align: center;
+    color: #222;
+    font-weight: 400;
+}
+
+.componeynameLogo{
+    color: #195DAA;
+    font-size: 24px;
+}
+
+.componeyLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px 15px 0px;
+    gap: 35px;
+    
+}
+
+.componeyBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    background-color: #E6E6E6;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.companyLogoImage{
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+}
+
+.companeyName{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.loginPara{
+    color: #195DAA;
+    font-weight: 600;
+}
+
+.errorMsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: red;
+}

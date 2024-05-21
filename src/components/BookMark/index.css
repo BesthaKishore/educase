@@ -1,0 +1,30 @@
+.expoler{
+    width: 350px;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.ExpolerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.expolerCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    padding: 40px;
+}
+
+.expolerHeading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #222;
+}
